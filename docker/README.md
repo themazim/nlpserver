@@ -6,7 +6,8 @@ Docker slim image with NLP Server
 
 Inside the docker folder run 
 ```
- docker build . --tag nlpserver:1.0
+ # execute from root folder
+ docker build . --tag nlpserver:1.0 --progress plain -f docker/Dockerfile
 
  docker run --publish 6400:6400 --detach --name nlpserver nlpserver:1.0  
 

@@ -6,12 +6,13 @@ polyglot
 morfessor
 langid
 newspaper3k
-pycld2
-gensim==3.8.3
+#pycld2
+gensim
 spacy
 readability-lxml
 BeautifulSoup4
 afinn
 textblob
+waitress
 #summa
 #pattern
